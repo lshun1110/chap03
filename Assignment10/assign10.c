@@ -1,11 +1,9 @@
 /*
-ÆÄÀÏ¸í : assign07.c
-³»¿ë : ½Ç¼ö°ªÀ» ÀÔ·Â¹Þ¾Æ ±× °ªÀÇ Á¦°ö°ú ¼¼Á¦°öÀ» Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À.
-	   ½Ç¼ö°ªÀ» ÀÔ·Â¹ÞÀ» ¶§´Â 12.34Ã³·³ ¼Ò¼ö Ç¥±â ¹æ¹ýÀÌ³ª 1.234e2Ã³·³ Áö¼ö Ç¥±â¹æ¹ýÀ» µÑ ´Ù »ç¿ëÇÒ ¼ö ÀÖ°Ô ÇÏ°í
-	   Á¦°ö°ú ¼¼Àç°öÀ» Ãâ·ÂÇÒ ¶§´Â Áö¼ö Ç¥±â ¹æ¹ýÀ¸·Î Ãâ·ÂÇÏ½Ã¿À.
-ÀÛ¼ºÀÚ : ÀÌ½ÂÈÆ
-³¯Â¥ : 2025.04.07
-¹öÀü : v 1.0
+íŒŒì¼ëª… : assign10.c
+ë‚´ìš© : ì›/ë‹¬ëŸ¬ í™˜ìœ¨ê³¼ ë‹¬ëŸ¬ë¥¼ ìž…ë ¥ë°›ì•„ ëª‡ ì›ì¸ì§€ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ëž¨ì„ ìž‘ì„±í•˜ì‹œì˜¤.
+ìž‘ì„±ìž : ì´ìŠ¹í›ˆ
+ë‚ ì§œ : 2025.04.07
+ë²„ì „ : v 1.0
 */
 
 #define _CRT_SECURE_NO_WARNINGS
@@ -25,7 +23,7 @@ void Change()
 
 	printf("USD? ");
 	scanf("%f", &dollars);
-	printf("¿ø/´Þ·¯ È¯À²? ");
+	printf("ì›/ë‹¬ëŸ¬ í™˜ìœ¨? ");
 	scanf("%f", &change);
 
 	printf("USD %.2f = KRW %.2f", dollars, dollars * change);
